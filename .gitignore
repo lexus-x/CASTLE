@@ -1,0 +1,15 @@
+# large artifacts — never commit
+*.pt
+*.safetensors
+ckpt_*/
+results/base_rollouts*.json
+*.log
+*.mp4
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# os
+.DS_Store
